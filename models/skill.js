@@ -1,7 +1,9 @@
 let skills = [
   {id:1, skill:"HTML", done: true},
-  {id:2, skill:"CSS", done: true},
+  {id:2, skill:"CSS", done: false},
   {id:3, skill:"Javascript", done: true},
+  {id:4, skill:"Python", done: false},
+  {id:5, skill:"React", done: false},
 ]
 module.exports = {
   getAll,
